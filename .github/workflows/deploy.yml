@@ -1,5 +1,4 @@
 yaml
-
 name: Build and Deploy Quartz Site
 
 on:

@@ -26,8 +26,8 @@ messages: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Kiwi Maru",
+        body: "Cormorant Garamond",
         code: "IBM Plex Mono",
       },
       colors: {

@@ -50,7 +50,17 @@ sortFn: (a, b) => {
 }),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+  localGraph: {
+    showTags: true,        // показывать теги
+    showLinks: true,       // показывать ссылки
+    excludePaths: ["Словник", "index"],  // исключить эти страницы
+  },
+  globalGraph: {
+    showTags: true,
+    excludePaths: ["Словник", "index"],
+  },
+}),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

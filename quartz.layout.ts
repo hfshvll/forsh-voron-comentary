@@ -39,7 +39,14 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-  title: "Содержание"
+  title: "Содержание",
+sortFn: (a, b) => {
+      const aNum = parseInt(a.data?.title) || Infinity
+      const bNum = parseInt(b.data?.title) || Infinity
+      return aNum - bNum
+    },
+    filterFn: (node) => node.slugSegment !== "tags",
+    order: ["filter", "map", "sort"],
 }),
   ],
   right: [

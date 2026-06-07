@@ -54,11 +54,11 @@ sortFn: (a, b) => {
   localGraph: {
     showTags: true,
     showLinks: true,
-    excludePaths: ["Словник", "index", "tags", "**/Словник"],
+    excludePaths: ["index", "index.md"],
   },
   globalGraph: {
     showTags: true,
-    excludePaths: ["Словник", "index", "tags", "**/Словник"],
+    excludePaths: ["index", "index.md"],
   },
 }),
     Component.DesktopOnly(Component.TableOfContents()),

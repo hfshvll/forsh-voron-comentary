@@ -21,7 +21,7 @@ messages: {
 },
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian", "Словник.md"],
-    defaultDateType: "file.name",
+    //defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

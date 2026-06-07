@@ -11,7 +11,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://github.com/hfshvll/forsh-voron-comentary.git",
     ignorePatterns: ["private", "templates", ".obsidian", "Словник.md"],
     defaultDateType: "created",
     theme: {

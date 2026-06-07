@@ -15,9 +15,9 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "ru-RU",
+    locale: "en-US",
 messages: {
-"Explorer": "Содержание",
+"explorer": "Содержание",
 },
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],

@@ -50,7 +50,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({
         enableInHtmlEmbed: false,
       }),
-      Plugin.GithubFlavoredMarkdown(),
+      Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({
         markdownLinkResolution: "shortest",
@@ -75,7 +75,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      Plugin.CustomOImages(),
+      // Plugin.CustomImages(),
     ],
   },
 }

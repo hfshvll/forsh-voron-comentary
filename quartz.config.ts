@@ -20,7 +20,7 @@ messages: {
 "explorer": "Содержание",
 },
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Словник.md"],
     defaultDateType: "file.name",
     theme: {
       fontOrigin: "googleFonts",

@@ -52,13 +52,13 @@ sortFn: (a, b) => {
   right: [
     Component.Graph({
   localGraph: {
-    showTags: true,        // показывать теги
-    showLinks: true,       // показывать ссылки
-    excludePaths: ["Словник", "index"],  // исключить эти страницы
+    showTags: true,
+    showLinks: true,
+    excludePaths: ["Словник", "index", "tags", "**/Словник"],
   },
   globalGraph: {
     showTags: true,
-    excludePaths: ["Словник", "index"],
+    excludePaths: ["Словник", "index", "tags", "**/Словник"],
   },
 }),
     Component.DesktopOnly(Component.TableOfContents()),
